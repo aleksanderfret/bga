@@ -1,0 +1,8 @@
+*.min.js
+node_modules/*
+lib/*
+*.css
+*.min.js
+node_modules/*
+.next
+dist

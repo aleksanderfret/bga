@@ -1,0 +1,82 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "b0EyKOzH6uw_dQJVSrzta",
+      "type": "rectangle",
+      "x": 568.5281372070312,
+      "y": 158.1750030517578,
+      "width": 283.2750244140625,
+      "height": 85.74375915527344,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1124324836,
+      "version": 99,
+      "versionNonce": 80607076,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "Y5zRl9Si0JaT4EeEdAMZh"
+        }
+      ],
+      "updated": 1718660243329,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "Y5zRl9Si0JaT4EeEdAMZh",
+      "type": "text",
+      "x": 688.4456558227539,
+      "y": 188.54688262939453,
+      "width": 43.43998718261719,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 433359964,
+      "version": 10,
+      "versionNonce": 98224740,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1718660248437,
+      "link": null,
+      "locked": false,
+      "text": "BGA",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "baseline": 17,
+      "containerId": "b0EyKOzH6uw_dQJVSrzta",
+      "originalText": "BGA",
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
