@@ -4,8 +4,13 @@ import { useTheme } from '@mui/material/styles';
 import clsx from 'clsx';
 import React, { FC } from 'react';
 
-import Navigation from './Navigation';
-import { CloseButton, Drawer, ExpandIconBox, NavHeader } from './SideBarStyles';
+import { Navigation } from './navigation';
+import {
+  CloseButton,
+  Drawer,
+  ExpandIconBox,
+  NavHeader,
+} from './side-bar-styles';
 
 interface SideBarProps extends DrawerProps {
   expanded: boolean;

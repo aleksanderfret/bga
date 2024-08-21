@@ -17,7 +17,7 @@ interface NavigationProps {
   showLabels: boolean;
 }
 
-const Navigation: FC<NavigationProps> = ({ showLabels }) => (
+export const Navigation: FC<NavigationProps> = ({ showLabels }) => (
   <Box component="nav">
     <List>
       <ListItemButton component={Link} href="/">
@@ -43,5 +43,3 @@ const Navigation: FC<NavigationProps> = ({ showLabels }) => (
     </List>
   </Box>
 );
-
-export default Navigation;
