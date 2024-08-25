@@ -6,11 +6,11 @@ import React, { ReactNode, useEffect, useState } from 'react';
 
 import { Content, SideBar, TopBar } from './components';
 
-interface LayoutProps {
+interface BaseLayoutProps {
   children: ReactNode;
 }
 
-export const Layout = ({ children }: LayoutProps) => {
+export const BaseLayout = ({ children }: BaseLayoutProps) => {
   const theme = useTheme();
   const isMediumScreen = useMediaQuery(theme.breakpoints.up('md'));
   const [open, setIsOpen] = useState<boolean | undefined>();
@@ -36,8 +36,7 @@ export const Layout = ({ children }: LayoutProps) => {
     if (isMediumScreen && !open) {
       setIsOpen(true);
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isMediumScreen]);
+  }, [isMediumScreen, open]);
 
   return (
     <>

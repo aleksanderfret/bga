@@ -1,3 +1,3 @@
-export * from './SideBar';
-export * from './TopBar';
-export * from './Content';
+export * from './side-bar';
+export * from './top-bar';
+export * from './content';

@@ -5,7 +5,7 @@ import Select, { SelectChangeEvent } from '@mui/material/Select';
 import { useColorScheme } from '@mui/material/styles';
 import { useEffect, useState } from 'react';
 
-type Mode = 'light' | 'dark' | 'system';
+import { Mode } from '@/types';
 
 export const ThemeSwitcher = () => {
   const { mode, setMode } = useColorScheme();
