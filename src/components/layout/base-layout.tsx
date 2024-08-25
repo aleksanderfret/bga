@@ -36,8 +36,7 @@ export const BaseLayout = ({ children }: BaseLayoutProps) => {
     if (isMediumScreen && !open) {
       setIsOpen(true);
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isMediumScreen]);
+  }, [isMediumScreen, open]);
 
   return (
     <>

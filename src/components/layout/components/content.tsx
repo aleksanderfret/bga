@@ -1,26 +1,22 @@
 import Box from '@mui/material/Box';
 import { styled } from '@mui/material/styles';
 
-export const SIDEBAR_WIDTH = 240;
-export const MINI_SIDEBAR_WIDTH = 56;
-
 export const Content = styled(Box)(
   ({ theme: { spacing, transitions, breakpoints, mixins } }) => ({
     flexGrow: 1,
     position: 'relative',
-    padding: `${spacing(4.5)} ${spacing(1)}`,
+    padding: `${spacing(16)} ${spacing(2)} ${spacing(2)}`,
     transition: transitions.create(['margin', 'width'], {
       easing: transitions.easing.sharp,
       duration: transitions.duration.leavingScreen,
     }),
 
     [breakpoints.up('sm')]: {
-      padding: `${spacing(5.5)} ${spacing(2)}`,
+      padding: `${spacing(18)} ${spacing(4)} ${spacing(4)}`,
     },
 
     [breakpoints.up('md')]: {
-      padding: spacing(3),
-      paddingTop: spacing(7),
+      padding: `${spacing(22)} ${spacing(6)} ${spacing(6)}`,
       width: '100%',
       marginLeft: 0,
 

@@ -4,7 +4,8 @@ import { useTheme } from '@mui/material/styles';
 import clsx from 'clsx';
 import React, { FC } from 'react';
 
-import { Navigation } from './navigation';
+import { Navigation } from '@/components/navigation';
+
 import {
   CloseButton,
   Drawer,
